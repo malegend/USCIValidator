@@ -9,5 +9,5 @@ var ret = USCIValidator.Valid(code);
 Console.WriteLine($"{code} is {(ret? "valid":"invalid")}.");
 ```
 
-## 注意
-仅对行政区划代码的前两位进行了有效性校验。
+## 关于行政区划代码的有效性校验
+仅对“登记管理机关行政区划代码”的前两位进行了区划有效性校验，如需要更准确的区划有效性校验，可自行修改。
