@@ -4,7 +4,7 @@
 
 ## 使用方法
 ```
-var code = "913706XXXXXXXXXXXX";
+var code = "9137XXXXXXXXXXXXXX";
 var ret = USCIValidator.Valid(code);
 Console.WriteLine($"{code} is {(ret? "valid":"invalid")}.");
 ```
